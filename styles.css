@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;   
 }
-div{
+.blur-widget{
     width: 680px;
     height: 680px;
     background: rgba(255,255,255,0,1);
@@ -20,3 +20,34 @@ div{
     border-radius: 50px;
     box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0, 5 );
 }
+
+.input-box{
+    width: 400px;
+    height: 100px;
+     padding: 1rem;
+     align-items: center;
+     display: flex;
+     border-radius: 20px;
+ 
+ }
+ 
+ /**Output-Box**/
+ 
+ #output-box{
+     border: 1px solid black;
+     height: 11.3vh;
+     width: 400px;
+     padding: 1rem;
+     align-items: center;
+     display: flex;
+     background-color: white;
+     border-radius: 20px;
+ }
+
+ .button{
+    display: flex;
+    margin: 2rem;
+    margin-left: 4.5cm;
+    align-items: center;
+    
+ }
