@@ -6,19 +6,21 @@ body{
     background-position: center;
     display: flex; 
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+      
 }
 .blur-widget{
     width: 680px;
     height: 680px;
     background: rgba(255,255,255,0,1);
     backdrop-filter:blur(10px);
-    color: yellow;
+    color: white;
     display: flex; 
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0, 5 );
+    box-shadow: 2px 2px 5px 2px black;
+    
 }
 
 .input-box{
@@ -28,6 +30,8 @@ body{
      align-items: center;
      display: flex;
      border-radius: 20px;
+     font-size: larger;
+     
  
  }
  
@@ -42,6 +46,7 @@ body{
      display: flex;
      background-color: white;
      border-radius: 20px;
+     
  }
 
  .button{
@@ -50,4 +55,21 @@ body{
     margin-left: 4.5cm;
     align-items: center;
     
+ }
+
+ #header-text{
+     text-align: center;
+     font-size: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     font-weight: bolder;
+    
+    
+     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  color: yellow;
+  font:  Georgia, serif;
+     
+     
  }
