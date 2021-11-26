@@ -2,7 +2,7 @@ var userAction = document.querySelector("#btn-translate");
 var userText = document.querySelector("#user-text")
 var outputText = document.querySelector("#output-box")
 
-var requestURL = "https://api.funtranslations.com/translate/pirate.json"
+var requestURL = "https://api.funtranslations.com/translate/minion.json"
 
 
 function errorHandler(error) {
