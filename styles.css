@@ -1,75 +1,97 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@500&display=swap');
+body {
     margin: 0px;
     min-height: 100vh;
     background-image: url(/background-img.jpg);
     background-size: cover;
     background-position: center;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-      
+
 }
-.blur-widget{
+
+.blur-widget {
     width: 680px;
     height: 680px;
-    background: rgba(255,255,255,0,1);
-    backdrop-filter:blur(10px);
+    background: rgba(255, 255, 255, 0, 1);
+    backdrop-filter: blur(10px);
     color: white;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     box-shadow: 2px 2px 5px 2px black;
-    
+
 }
 
-.input-box{
+.input-box {
     width: 400px;
     height: 100px;
-     padding: 1rem;
-     align-items: center;
-     display: flex;
-     border-radius: 20px;
-     font-size: larger;
-     
- 
- }
- 
- /**Output-Box**/
- 
- #output-box{
-     border: 1px solid black;
-     height: 11.3vh;
-     width: 400px;
-     padding: 1rem;
-     align-items: center;
-     display: flex;
-     background-color: white;
-     border-radius: 20px;
-     
- }
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    font-size: larger;
 
- .button{
+
+}
+
+/**Output-Box**/
+
+#output-box {
+    border: 1px solid black;
+    height: 11.3vh;
+    width: 400px;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-size: larger;
+
+}
+
+.button {
     display: flex;
     margin: 2rem;
     margin-left: 4.5cm;
     align-items: center;
-    
- }
+    padding: 10px;
+    border-radius: 10px;
+    background-color:khaki;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
 
- #header-text{
-     text-align: center;
-     font-size: 60px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
-     font-weight: bolder;
-    
-    
-     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-  color: yellow;
-  font:  Georgia, serif;
-     
-     
- }
+}
+
+#header-text {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+h3 {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: white;
+    font: Georgia, serif;
+
+}
